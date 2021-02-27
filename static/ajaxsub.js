@@ -50,7 +50,7 @@ form.addEventListener('submit', (e)=>{
 		success: function(response){
 			console.log(response)
 			handleAlert('success', 'Form submitted successfully')
-			setTimeout(() =>{
+			setTimeout(() => {
 				alertBox.innerHTML = ""
 				imageBox.innerHTML= ""
 				name.value = ""
